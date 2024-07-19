@@ -8,10 +8,9 @@
     body {
       font-family: Arial, sans-serif;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
+      justify-content: left;
+      align-items: left;
+    
     }
 
     .container {
@@ -35,9 +34,9 @@
 </head>
 <body>
   <div class="container">
-    <h1>Escolha uma Imagem</h1>
-    <button id="btnImg1" onclick="mostrarImagem('./Rendei_gracas.jpg')">Imagem 1</button>
-    <button id="btnImg2" onclick="mostrarImagem('https://via.placeholder.com/400x300/0000FF/808080')">Imagem 2</button>
+    <img src="Logo_nova_3.jpeg" height="300">
+    <button id="btnImg1" onclick="window.location.href = 'cifras.html'">CIFRAS</button>
+    <button id="btnImg2" onclick="window.location.href = 'letras.html'">LETRAS</button>
 
     <div id="imagemContainer" class="hidden">
       <img id="imagemMostrada" src="" alt="Imagem">
